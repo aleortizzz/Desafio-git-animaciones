@@ -328,10 +328,6 @@ text-align: center;
     margin-left: 100px;
 }
 
-@media only screen and (max-width: 768px) {
-    .grid-footer a {
-        color: rgb(190, 54, 54);
-    }
 
     .grid-footer {
         grid-template-columns: 1fr 1fr;
