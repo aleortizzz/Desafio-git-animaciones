@@ -142,6 +142,7 @@
     margin-right: 850px;
     margin-bottom: 50PX;
     border-radius: 10px;
+    transition-duration: 0.5s;
  
 
 
@@ -149,11 +150,25 @@
 
 }
 
+.boton:hover {
+    transform: scale(1.5);
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
 
 .botoncontenedor {
     color: #464141;
 
 
+}
+
+.infoflex:hover{
+
+    background-color: #464141;
+    color: goldenrod;
+    border-radius: 10PX;
+    
 }
 
 
@@ -284,7 +299,17 @@ text-align: center;
     font-size: 1rem;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all 1s;
 
+}
+
+.grid-footer a:hover {
+    background-color: rgb(239, 193, 77);
+    transform: scale(0.75);
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 4px;
 }
 
 
@@ -358,6 +383,7 @@ text-align: center;
     width: 200px;
     height: 200px;
     margin-right: 5px;
+    transition-duration: 1s;
   
 
 
@@ -390,6 +416,17 @@ text-align: center;
 .siguiente {
     color: goldenrod;
     margin-left: 10px;
+
+}
+
+.imagenesgaleria:hover {
+
+
+    transform: scale(1.5);
+    transition-property: all;
+   transition-duration: 1s;
+
+
 
 }
 
